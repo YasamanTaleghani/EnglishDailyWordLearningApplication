@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="EnglishLearning.Button" parent="Widget.MaterialComponents.Button">
+        <item name="textAllCaps">false</item>
+        <!--<item name="fontFamily">@font/dm_sans_bold</item>-->
+        <item name="android:textSize">@dimen/button_text_size</item>
+        <item name="lineHeight">@dimen/button_line_height</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="iconGravity">textStart</item>
+        <item name="android:paddingTop">@dimen/button_padding_vertical</item>
+        <item name="android:paddingBottom">@dimen/button_padding_vertical</item>
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.EngLearning.MaterialButton</item>
+        <item name="minHeight">0dp</item>
+        <item name="minWidth">0dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/button_height_40</item>
+        <item name="backgroundTint">@color/button_bg_main_selector</item>
+        <item name="android:textColor">@color/button_text_color_selector</item>
+    </style>
+
+    <style name="EnglishLearning.Button.OutlinedButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="textAllCaps">false</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+        <item name="lineHeight">@dimen/button_line_height</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="iconGravity">textStart</item>
+        <item name="android:paddingTop">@dimen/button_padding_vertical</item>
+        <item name="android:paddingBottom">@dimen/button_padding_vertical</item>
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.EngLearning.MaterialButton</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/button_height_40</item>
+        <item name="backgroundTint">@color/white</item>
+        <item name="strokeColor">@color/button_stroke_color_selector</item>
+        <item name="iconTint">@color/button_icon_color_selector</item>
+        <item name="android:textColor">@color/button_text_color_selector</item>
+    </style>
+
+
+
+    <style name="ShapeAppearanceOverlay.EngLearning.MaterialButton" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/button_radius</item>
+    </style>
+
+</resources>
