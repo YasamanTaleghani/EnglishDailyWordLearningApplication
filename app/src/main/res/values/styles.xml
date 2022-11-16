@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="EnglishLearning.Button" parent="Widget.MaterialComponents.Button">
+    <style name="App.Main.Button" parent="Widget.MaterialComponents.Button">
         <item name="textAllCaps">false</item>
         <!--<item name="fontFamily">@font/dm_sans_bold</item>-->
         <item name="android:textSize">@dimen/button_text_size</item>
@@ -14,7 +14,7 @@
         <item name="iconGravity">textStart</item>
         <item name="android:paddingTop">@dimen/button_padding_vertical</item>
         <item name="android:paddingBottom">@dimen/button_padding_vertical</item>
-        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.EngLearning.MaterialButton</item>
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.Main.MaterialButton</item>
         <item name="minHeight">0dp</item>
         <item name="minWidth">0dp</item>
         <item name="android:layout_width">wrap_content</item>
@@ -23,7 +23,7 @@
         <item name="android:textColor">@color/button_text_color_selector</item>
     </style>
 
-    <style name="EnglishLearning.Button.OutlinedButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
+    <style name="App.Main.Button.OutlinedButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
         <item name="textAllCaps">false</item>
         <item name="android:textSize">@dimen/button_text_size</item>
         <item name="lineHeight">@dimen/button_line_height</item>
@@ -35,7 +35,7 @@
         <item name="iconGravity">textStart</item>
         <item name="android:paddingTop">@dimen/button_padding_vertical</item>
         <item name="android:paddingBottom">@dimen/button_padding_vertical</item>
-        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.EngLearning.MaterialButton</item>
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.Main.MaterialButton</item>
         <item name="android:minHeight">0dp</item>
         <item name="android:minWidth">0dp</item>
         <item name="strokeWidth">1dp</item>
@@ -47,11 +47,34 @@
         <item name="android:textColor">@color/button_text_color_selector</item>
     </style>
 
-
-
-    <style name="ShapeAppearanceOverlay.EngLearning.MaterialButton" parent="">
+    <style name="ShapeAppearanceOverlay.Main.MaterialButton" parent="">
         <item name="cornerFamily">rounded</item>
         <item name="cornerSize">@dimen/button_radius</item>
+        <item name="android:layout_marginStart">@dimen/card_margin_side</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.ImageView.Circle" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">0dp</item>
+        <item name="cornerSizeTopRight">20dp</item>
+    </style>
+
+    <style name="Widget.MaterialComponents.CardView.Cornered" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">20dp</item>
+        <item name="cardElevation">12dp</item>
+        <item name="android:layout_height">150dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginStart">@dimen/card_margin_side</item>
+        <item name="android:layout_marginEnd">@dimen/card_margin_side</item>
+        <item name="android:layout_marginTop">@dimen/card_margin_top</item>
+        <item name="android:layout_marginBottom">@dimen/card_margin_top</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.Main.MaterialButton.TextView.Circle" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerRadius">50dp</item>
+        <item name="cornerSize">25dp</item>
+        <item name="android:layout_marginLeft">8dp</item>
     </style>
 
 </resources>
