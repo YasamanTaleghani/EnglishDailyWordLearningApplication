@@ -19,7 +19,7 @@ object AppModule {
     @Provides
     fun provideYourDatabase(@ApplicationContext app: Context) =
         Room.databaseBuilder(app, AppDatabase::class.java, "DemoDatabase.db")
-        .createFromAsset("database/DemoDatabase.db")
+        .createFromAsset("test.db")
         .build()
 
     @Singleton
