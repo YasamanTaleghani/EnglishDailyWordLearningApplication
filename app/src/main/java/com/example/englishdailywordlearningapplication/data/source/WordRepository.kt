@@ -1,4 +1,4 @@
-package com.example.englishdailywordlearningapplication.data.source.local
+package com.example.englishdailywordlearningapplication.data.source
 
 import com.example.englishdailywordlearningapplication.data.Word
 
