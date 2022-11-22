@@ -7,6 +7,7 @@
     <!-- Button default dimens -->
     <dimen name="button_radius">100dp</dimen>
     <dimen name="button_text_size">@dimen/default_text_size</dimen>
+    <dimen name="button_text_size_very_large">22sp</dimen>
     <dimen name="button_line_height">20sp</dimen>
     <dimen name="button_drawable_padding">5dp</dimen>
     <dimen name="button_padding_vertical">10dp</dimen>
@@ -33,5 +34,17 @@
     <dimen name="button_margin_bottom">4sp</dimen>
     <dimen name="card_margin_side">8sp</dimen>
     <dimen name="card_margin_top">4sp</dimen>
+
+    <!-- card view default dimens -->
+    <dimen name="card_view_margin_start">8sp</dimen>
+    <dimen name="card_view_margin_end">8sp</dimen>
+    <dimen name="card_view_margin_top">16sp</dimen>
+    <dimen name="card_view_margin_bottom">16sp</dimen>
+
+    <!-- Progress bar default dimens -->
+    <dimen name="progress_bar_margin_start">8sp</dimen>
+    <dimen name="progress_bar_margin_end">8sp</dimen>
+    <dimen name="progress_bar_margin_top">16sp</dimen>
+    <dimen name="progress_bar_margin_bottom">16sp</dimen>
 
 </resources>
