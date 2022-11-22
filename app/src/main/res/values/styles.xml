@@ -62,12 +62,24 @@
     <style name="Widget.MaterialComponents.CardView.Cornered" parent="Widget.MaterialComponents.CardView">
         <item name="cardCornerRadius">20dp</item>
         <item name="cardElevation">12dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginStart">@dimen/card_margin_side</item>
+        <item name="android:layout_marginEnd">@dimen/card_margin_side</item>
+        <item name="android:layout_marginTop">@dimen/card_margin_top</item>
+        <item name="android:layout_marginBottom">@dimen/card_margin_top</item>
+    </style>
+
+    <style name="Widget.MaterialComponents.CardView.Cornered.TextView" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">20dp</item>
+        <item name="cardElevation">12dp</item>
         <item name="android:layout_height">150dp</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_marginStart">@dimen/card_margin_side</item>
         <item name="android:layout_marginEnd">@dimen/card_margin_side</item>
         <item name="android:layout_marginTop">@dimen/card_margin_top</item>
         <item name="android:layout_marginBottom">@dimen/card_margin_top</item>
+        <item name="android:textSize">@dimen/button_text_size_very_large</item>
     </style>
 
     <style name="ShapeAppearanceOverlay.Main.MaterialButton.TextView.Circle" parent="">
